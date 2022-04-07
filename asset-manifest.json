@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/EliotNess/static/css/main.a117bfa1.css",
-    "main.js": "/EliotNess/static/js/main.1584bf3e.js",
+    "main.css": "/EliotNess/static/css/main.5eec76e6.css",
+    "main.js": "/EliotNess/static/js/main.f995838b.js",
+    "static/media/fondoFabricaTres.jpg": "/EliotNess/static/media/fondoFabricaTres.059fdcad91673af0fd24.jpg",
+    "static/media/fondoContacto.jpg": "/EliotNess/static/media/fondoContacto.ce559fa58c04774eb8e3.jpg",
+    "static/media/mapaCaptura.PNG": "/EliotNess/static/media/mapaCaptura.d680f57021054eb3bae8.PNG",
     "static/media/homeCerveza.png": "/EliotNess/static/media/homeCerveza.0c84c2be826ce895b1c4.png",
     "static/media/fondoClaro.jpg": "/EliotNess/static/media/fondoClaro.9d1c15a73bc82024127f.jpg",
     "static/media/home.jpg": "/EliotNess/static/media/home.0f43654737dd03951922.jpg",
@@ -9,12 +12,16 @@
     "static/media/footerF.png": "/EliotNess/static/media/footerF.2b92144f34dae806481b.png",
     "static/media/vasoMano.png": "/EliotNess/static/media/vasoMano.257fa66da9812cb47c7d.png",
     "static/media/choperaMaori.jpg": "/EliotNess/static/media/choperaMaori.923823ee057c8638afde.jpg",
+    "static/media/contactoFondo.jpg": "/EliotNess/static/media/contactoFondo.d5aa5bf23b9372b3fddd.jpg",
+    "static/media/lupulo.png": "/EliotNess/static/media/lupulo.6c0ed7bfac1a94fe89c7.png",
     "static/media/homeTablet.jpg": "/EliotNess/static/media/homeTablet.941116cec3d2a7afd278.jpg",
+    "static/media/deliveryPromo.webp": "/EliotNess/static/media/deliveryPromo.d3cac2aea3e37dfa0115.webp",
     "static/media/barrilesCerveza.png": "/EliotNess/static/media/barrilesCerveza.d72514eb0ed3c2921641.png",
     "static/media/barrilesCervezaDos.png": "/EliotNess/static/media/barrilesCervezaDos.1fcd9cbac3d4b6e388c8.png",
     "static/media/lupuloCTAleft.png": "/EliotNess/static/media/lupuloCTAleft.c0bb8fc98e7df04b8dfc.png",
     "static/media/lupuloCTAright.png": "/EliotNess/static/media/lupuloCTAright.f7b282bf378f43427ea4.png",
     "static/media/homeMobile.jpg": "/EliotNess/static/media/homeMobile.fd9146a10870e2dae81b.jpg",
+    "static/media/deliveryPromoTres.webp": "/EliotNess/static/media/deliveryPromoTres.81dee13a4b03ec7e4063.webp",
     "static/media/pub.jpg": "/EliotNess/static/media/pub.017d5f57bc0090de1f5d.jpg",
     "static/media/carritoNaranja.png": "/EliotNess/static/media/carritoNaranja.5c22b6a8ff8b1fdb6f2f.png",
     "static/media/irishRed.png": "/EliotNess/static/media/irishRed.3cf034e6c52baacf0b5c.png",
@@ -27,7 +34,10 @@
     "static/media/golden.png": "/EliotNess/static/media/golden.da4993cbdbcf1935d9d5.png",
     "static/media/tntIpa.png": "/EliotNess/static/media/tntIpa.ebdf2f9fa25f58958669.png",
     "static/media/fermentacion.png": "/EliotNess/static/media/fermentacion.8b168ec0be820b030ea5.png",
+    "static/media/fabricaDos.jpg": "/EliotNess/static/media/fabricaDos.eb2132b081de8aa58607.jpg",
+    "static/media/deliveryPromoDos.webp": "/EliotNess/static/media/deliveryPromoDos.18159e808b397baf5624.webp",
     "static/media/filtrado.png": "/EliotNess/static/media/filtrado.fde2f75335eb6e17382e.png",
+    "static/media/fabricaTres.jpg": "/EliotNess/static/media/fabricaTres.2d519e2bf07844e71c2d.jpg",
     "static/media/trigoNaranja.png": "/EliotNess/static/media/trigoNaranja.6ae3fa8f4edf99a0d37c.png",
     "static/media/brandH.png": "/EliotNess/static/media/brandH.4ee34a47e03961f3e72f.png",
     "static/media/instaNaranja.png": "/EliotNess/static/media/instaNaranja.f419c09996cfb1dddbf3.png",
@@ -38,6 +48,7 @@
     "static/media/pDos.png": "/EliotNess/static/media/pDos.99cc4bc2ae309afb32ff.png",
     "static/media/brandMenuAbierto.png": "/EliotNess/static/media/brandMenuAbierto.964e63796b8d9def3835.png",
     "static/media/trigoNegro.png": "/EliotNess/static/media/trigoNegro.008db09072d8e582a5a4.png",
+    "static/media/fabricaUno.jpg": "/EliotNess/static/media/fabricaUno.1bfaec3bf6099ffb58f0.jpg",
     "static/media/instaBlanco.png": "/EliotNess/static/media/instaBlanco.558b57d52a69b2d96014.png",
     "static/media/barril.png": "/EliotNess/static/media/barril.171cf7c080cac421229f.png",
     "static/media/location.png": "/EliotNess/static/media/location.3f270c79d615529245ff.png",
@@ -50,11 +61,11 @@
     "static/media/faceBlanco.png": "/EliotNess/static/media/faceBlanco.9f351cebb12a2c896b2d.png",
     "static/media/iconCJCity.png": "/EliotNess/static/media/iconCJCity.6b653ccc9c3b19c1014f.png",
     "index.html": "/EliotNess/index.html",
-    "main.a117bfa1.css.map": "/EliotNess/static/css/main.a117bfa1.css.map",
-    "main.1584bf3e.js.map": "/EliotNess/static/js/main.1584bf3e.js.map"
+    "main.5eec76e6.css.map": "/EliotNess/static/css/main.5eec76e6.css.map",
+    "main.f995838b.js.map": "/EliotNess/static/js/main.f995838b.js.map"
   },
   "entrypoints": [
-    "static/css/main.a117bfa1.css",
-    "static/js/main.1584bf3e.js"
+    "static/css/main.5eec76e6.css",
+    "static/js/main.f995838b.js"
   ]
 }
