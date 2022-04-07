@@ -43,11 +43,17 @@ const Carousel = () => {
           slidesPerView: 2,
           spaceBetween:10,
         },
+        1024: {
+          
+            slidesPerView: 3,
+            spaceBetween:10,
+          },
       }}
    
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
-      className="swiperUno"    > 
+      className="swiperUno"  
+      id='swiperUno'  > 
 
         <SwiperSlide className='mySwiperCerveza'>
             <div className='divCardSlider'>
@@ -100,6 +106,17 @@ const Carousel = () => {
                 </div>
                 <div className='divPSlider'>
                     <h3>IRISH RED</h3> 
+                </div>
+            </div>
+        </SwiperSlide>
+
+        <SwiperSlide  className='mySwiperCerveza'>
+            <div className='divCardSlider'>
+                <div className='divImgCer'>
+                    <img src={imgAmBlonde} alt='blonde'/> 
+                </div>
+                <div className='divPSlider'>
+                    <h3>AMBAR BLONDE</h3> 
                 </div>
             </div>
         </SwiperSlide>

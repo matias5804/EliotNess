@@ -1,0 +1,79 @@
+.tituloLaFabrica{
+    width: 100%;
+    height: 300px;
+    --opacidad-negro: 0.5;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url(../../assets/img/pictures/fondoFabricaTres.jpg);
+   // background-image: url(../../assets/img/pictures/fondoFabricaDos.jpg);
+    color: white;
+    background-size: cover;
+    padding-top: 145px;
+}
+.tituloLaFabrica h1{
+    font-weight: 500;
+    padding: 10px 40px;
+    line-height: 45px;
+}
+
+.divFabrica{
+    background-image: url(../../assets/img/pictures/fondoClaro.jpg);
+}
+
+.divTxtFabrica{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 300px;
+    align-items: center;
+    
+    padding: 80px 10px 20px 10px; 
+    margin: 0 auto;
+}
+.divImgFabrica{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 550px){
+    .divTxtFabrica{
+        width: 450px;
+    }
+    .divDivFabrica{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px){
+    .divDivFabrica{
+    flex-direction: row;
+    }
+    .divImgFabrica{
+        height: auto;
+        width: 40%;
+    }
+    .divImgFabrica img{
+        height: 33%;
+        width: 100%;
+        object-fit: cover;
+    }
+    .divTxtFabrica{
+        padding: 10px 45px 10px 45px;
+    }
+    .tituloLaFabrica h1 {
+        font-size: revert;
+    }
+}
+
+
+@media (min-width: 1024px){
+    .divTxtFabrica{
+        width: 580px;
+        letter-spacing: 1.3px;
+        font-size: large;
+    }
+    .tituloLaFabrica h1 {
+        font-size: xxx-large;
+    }
+
+}

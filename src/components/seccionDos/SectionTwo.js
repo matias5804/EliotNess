@@ -5,7 +5,7 @@ import CarouselDos from '../carousel/CarouselDos'
 import CarouselTres from '../carousel/CarouselTres'
 import trigo from '../../assets/img/icon/trigoNegro.png'
 import trigoNaranja from '../../assets/img/icon/trigoNaranja.png'
-import pub from '../../assets/img/pictures/pub.jpg'
+
 
 const SectionTwo = () => {
   return (
