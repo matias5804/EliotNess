@@ -6,6 +6,7 @@ const Tienda = () => {
   console.log(ItemListContainer);
   return (
     <div>
+      <div className='fondoTienda'></div>
       <ItemListContainer/>
     </div>
   )

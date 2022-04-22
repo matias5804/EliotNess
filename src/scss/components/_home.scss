@@ -14,21 +14,23 @@
 }
 
 .divCta h1{
- font-size: xx-large;
- font-family: 'Oswald', sans-serif;
- font-family: 'Work Sans', sans-serif;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .divCta h1 span{
     color: $colorPri;
     font-size: xxx-large;
 }
+
 .cervezaCTA {
     width: 205px;
     position: absolute;
     left: 10%;
     bottom: 8%;
 }
+
 .divBtnCta{
     display: flex;
     flex-direction: column;
@@ -39,12 +41,18 @@
     left: 60%;
     bottom: 16%;
 }
-.divBtnCta a{
+.btnCTA{
     border: 1px solid white;
     text-decoration: none;
     color: white;
     width: 120px;
     padding: 10px;
+    cursor: pointer;
+}
+
+.btnCTA:hover{
+    border: 1px solid $colorPri;
+    color: $colorPri;
 }
 
 .divImgBtnCta{
@@ -65,6 +73,7 @@
         left: 13%;
     }
 }
+
 @media(min-width: 525px){
     .divBtnCta{
         width: 220px;
@@ -83,8 +92,6 @@
 
     .divImgBtnCta{
         padding: 40px;
-
-        
     }
 
     .fondoUno{
@@ -100,29 +107,36 @@
     .cervezaCTA{
         width: 360px;
     }
+
     .fondoUno{
         height: 870px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
+
     .fondoUno h1{
         font-size: 45px;
     }
+
     .fondoUno p,
     .fondoUno h4{
         font-size: larger;
     }
+
     .divCta {
         padding: 110px 150px 0 150px;
     }
+
     .divBtnCta {
         font-size: x-large;
     }
+
     .divBtnCta a{
         width: 160px;
         padding: 13px;
     }
+
     .divLupuloCTA{
         display: flex;
         position: absolute;
@@ -178,13 +192,13 @@
 
 @media(min-width: 1200px){
     .fondoUno{
-        height: 770px;
+        height: 650px;
     }
     .divBtnCta h1 span{
         font-size: 70px;
     }
     .divCta {
-        padding: 174px 30% 0px 0;
+        padding: 130px 30% 0px 0;
         width: 64%;
         gap: 30px;
     }
@@ -193,6 +207,10 @@
     }
     .divImgBtnCta img {
         width: 450px;
+    }
+    .btnCTA:hover{
+        border: 1px solid $colorPri;
+        color: $colorPri;
     }
     
 }

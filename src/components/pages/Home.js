@@ -24,9 +24,8 @@ const Home = () => {
         <div className='divImgBtnCta'>
           <img src={cerveza} className="cervezaCTA" alt='cerveza'/>
           <div className='divBtnCta'>
-            <Link to={<Tienda/>}>Comprar</Link>
-            <Link to="">Variedades</Link>
-            
+            <Link className='btnCTA' to={"/pages/Tienda"}>Comprar</Link>
+            <Link className='btnCTA' to="">Variedades</Link>
           </div>
         </div>
 

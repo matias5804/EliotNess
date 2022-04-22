@@ -1,12 +1,10 @@
 
-import growlerDiego from "../../assets/img/products/apa.png";
-
 const MockedItems = [
     {
         id: "1",
-        name: "Growler Diego Eterno + 2lts de Cerveza",
+        name: "Growler Diego + 2lts de Cerveza",
 
-        image:{growlerDiego},
+        image:"https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/growlerDiego.png",
 
         price: 850,
     },  
@@ -15,7 +13,7 @@ const MockedItems = [
         id: "2",
         name: "Vaso Eliot Ness",
 
-        image:'../assets/img/products/packCerveza.jpg',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/vasoEliotNess.jpg',
 
         price: 200,
     }, 
@@ -24,7 +22,7 @@ const MockedItems = [
         id: "3",
         name: "Pack X 6",
 
-        image:'../assets/img/products/packCerveza.jpg',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/packCerveza.jpg',
 
         price: 340,
     }, 
@@ -33,16 +31,16 @@ const MockedItems = [
         id: "4",
         name: "Pack x 6 + Vaso Eliot Ness",
 
-        image:'../assets/img/products/packCervezaVaso.jpeg',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/packCervezaVaso.jpg',
 
         price: 1600,
     },  
 
     {
         id: "5",
-        name: "Growler Diego Eterno + 2lts de Cerveza + Vaso Eliot Ness",
+        name: "Growler Diego + 2lts + Vaso",
 
-        image:'assets/img/products/growlerDiegoMasVaso.jpg',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/growlerDiegoMasVaso.jpg',
 
         price: 1000,
     },  
@@ -51,7 +49,7 @@ const MockedItems = [
         id: "6",
         name: "Golden",
 
-        image:'assets/img/products/golden.png',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/golden.png',
 
         price: 300,
     },  
@@ -59,34 +57,28 @@ const MockedItems = [
     {
         id: "7",
         name: "Red Irish",
-
-      image:'../../assets/img/products/irishRed.png',
-
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/irishRed.png',
         price: 300,
     },
 
     {
         id: "8",
         name: "Honey",
-
-        image:'../assets/img/products/honey.png',
-
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/honey.png',
         price: 300,
     },  
 
     {
         id: "9",
         name: "American Blonde",
-
-        image:'../../assets/img/products/amBlonde.png',
-
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/amBlonde.png',
         price: 300,
     },  
     {
         id: "10",
         name: "Apa",
 
-        image:'../assets/img/products/apa.png',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/apa.png',
 
         price: 300,
     },  
@@ -94,7 +86,7 @@ const MockedItems = [
         id: "11",
         name: "Doble Ipa",
 
-        image:'../../assets/img/products/dobleIpa',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/dobleIpa.png',
 
         price: 300,
     },  
@@ -102,7 +94,7 @@ const MockedItems = [
         id: "12",
         name: "Ipa",
 
-        image:'../../assets/img/products/ipa.png',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/ipa.png',
 
         price: 300,
     },  
@@ -110,7 +102,7 @@ const MockedItems = [
         id: "13",
         name: "TNT Ipa",
 
-        image:'../../assets/img/products/tntIpa.png',
+        image:'https://raw.githubusercontent.com/matias5804/EliotNess/main/src/assets/img/products/tntIpa.png',
 
         price: 300,
     },  
