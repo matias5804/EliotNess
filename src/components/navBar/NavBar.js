@@ -11,8 +11,10 @@ import Tienda from '../pages/Tienda'
 
 
 const NavBar = () => {
+
+
   return (
-    <div className='header'>
+    <div className='header content-web'>
 
         <div className="divBrandBurguer">
           <div className='divVacio'></div>
@@ -41,7 +43,7 @@ const NavBar = () => {
 
         <div className="container-menu">
           <div className="cont-menu">
-            <nav className="navLinks">
+            <nav className="navLinks nav-Menu">
               <Link className="linkMenu" to ="/" element={<Home/>}>Home</Link>     
               <Link className="linkMenu" to ="../pages/Tienda" element={<Tienda/>}>Tienda</Link>   
               <Link className="linkMenu" to ="../pages/Delivery" element={<Delivery/>}>Delivery</Link>     
@@ -49,10 +51,12 @@ const NavBar = () => {
               <Link className="linkMenu"  to ="../pages/Contacto" element={<Contacto/>}>Contacto</Link>      
             </nav>
             <label for="btn-menu" className="icon-equis"><div className="divBurguerClose"></div></label>
-            <img src={brandMenuAbierto} alt="brandMenuAbierto" className="imgBrandAbierto"/>
+            <img src={brandMenuAbierto} alt="brandMenuAbierto" className="imgBrandAbierto openMenu"/>
           </div> 
         </div>
-    </div>
+
+
+    </div> 
   )
 }
 

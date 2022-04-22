@@ -63,6 +63,10 @@ const Footer = () => {
       <div className='divDerechos'>
         <p>Construido por Matias Alonso Pisani - Todos los derechos reservados 2022</p>  
       </div>
+      
+              {/*/boton whatsApp modo fixd , te envia directoi al chat con una pestaña nueva/*/}
+              <a className='fixed-whatsapp' href="https://api.whatsapp.com/send?phone=541133554248'">
+                </a>
     </>
   )
 }
