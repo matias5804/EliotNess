@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/EliotNess/static/css/main.5eec76e6.css",
-    "main.js": "/EliotNess/static/js/main.f995838b.js",
+    "main.css": "/EliotNess/static/css/main.af89550e.css",
+    "main.js": "/EliotNess/static/js/main.faa3d668.js",
     "static/media/fondoFabricaTres.jpg": "/EliotNess/static/media/fondoFabricaTres.059fdcad91673af0fd24.jpg",
     "static/media/fondoContacto.jpg": "/EliotNess/static/media/fondoContacto.ce559fa58c04774eb8e3.jpg",
     "static/media/mapaCaptura.PNG": "/EliotNess/static/media/mapaCaptura.d680f57021054eb3bae8.PNG",
@@ -10,6 +10,7 @@
     "static/media/home.jpg": "/EliotNess/static/media/home.0f43654737dd03951922.jpg",
     "static/media/fondoTresopacoD.jpg": "/EliotNess/static/media/fondoTresopacoD.44daf88a719723830353.jpg",
     "static/media/footerF.png": "/EliotNess/static/media/footerF.2b92144f34dae806481b.png",
+    "static/media/fondoTiendaTres.jpg": "/EliotNess/static/media/fondoTiendaTres.216661738d6717dcde04.jpg",
     "static/media/vasoMano.png": "/EliotNess/static/media/vasoMano.257fa66da9812cb47c7d.png",
     "static/media/choperaMaori.jpg": "/EliotNess/static/media/choperaMaori.923823ee057c8638afde.jpg",
     "static/media/contactoFondo.jpg": "/EliotNess/static/media/contactoFondo.d5aa5bf23b9372b3fddd.jpg",
@@ -61,11 +62,11 @@
     "static/media/faceBlanco.png": "/EliotNess/static/media/faceBlanco.9f351cebb12a2c896b2d.png",
     "static/media/iconCJCity.png": "/EliotNess/static/media/iconCJCity.6b653ccc9c3b19c1014f.png",
     "index.html": "/EliotNess/index.html",
-    "main.5eec76e6.css.map": "/EliotNess/static/css/main.5eec76e6.css.map",
-    "main.f995838b.js.map": "/EliotNess/static/js/main.f995838b.js.map"
+    "main.af89550e.css.map": "/EliotNess/static/css/main.af89550e.css.map",
+    "main.faa3d668.js.map": "/EliotNess/static/js/main.faa3d668.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eec76e6.css",
-    "static/js/main.f995838b.js"
+    "static/css/main.af89550e.css",
+    "static/js/main.faa3d668.js"
   ]
 }
