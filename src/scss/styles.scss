@@ -1,17 +1,9 @@
 header{color:#bd7932}
 header{color: #e6bf55;}
 footer{background-color: #262022}
-
-
-
-//background-image: url(https://cervezaeliotness.com.ar/wp-content/uploads/2020/04/cervezas-bg.png?id=9397)!important;
-//    background-position: 0 0!important;
-//    background-repeat: repeat!important;
-
 @import "../scss/base/reset";
 @import "../scss/base/typography";
 @import "../scss/abstracts/variables";
-
 @import "../scss/layout/aside";
 @import "../scss/layout/footer";
 @import "../scss/layout/header";

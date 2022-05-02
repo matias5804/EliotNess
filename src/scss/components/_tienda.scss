@@ -5,7 +5,6 @@
     margin: 0 auto;
     padding: 21rem 0 8rem 0 ;
     gap:2rem;
-
 }
 
 .divImgCard{
@@ -57,11 +56,9 @@
     height: 324px;
     position: absolute;
     top: 0%;
-
 }
 
 @media(min-width:500px){
-    
 }
 
 @media(min-width:768px){
@@ -110,10 +107,8 @@
         background-position-y:center ;
         height: 290px;
     }
-    
-
-
 }
+
 @media(min-width:1300px){
     .tienda{
         display: grid;
@@ -126,6 +121,4 @@
         background-position-y:center ;
         height: 290px;
     }
-
-
 }

@@ -8,6 +8,7 @@
     background-size: cover;
     padding-top: 145px;
 }
+
 .tituloLaFabrica h1{
     font-weight: 500;
     padding: 10px 40px;
@@ -23,11 +24,11 @@
     flex-direction: column;
     gap: 25px;
     width: 300px;
-    align-items: center;
-    
+    align-items: center;    
     padding: 80px 10px 20px 10px; 
     margin: 0 auto;
 }
+
 .divImgFabrica{
     display: flex;
     flex-direction: column;
@@ -38,6 +39,7 @@
     .divTxtFabrica{
         width: 450px;
     }
+
     .divDivFabrica{
         display: flex;
         flex-direction: column;
@@ -48,18 +50,22 @@
     .divDivFabrica{
     flex-direction: row;
     }
+
     .divImgFabrica{
         height: auto;
         width: 40%;
     }
+
     .divImgFabrica img{
         height: 33%;
         width: 100%;
         object-fit: cover;
     }
+
     .divTxtFabrica{
         padding: 10px 45px 10px 45px;
     }
+
     .tituloLaFabrica h1 {
         font-size: revert;
     }
@@ -72,8 +78,8 @@
         letter-spacing: 1.3px;
         font-size: large;
     }
+
     .tituloLaFabrica h1 {
         font-size: xxx-large;
     }
-
 }

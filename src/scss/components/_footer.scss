@@ -1,7 +1,6 @@
 .footer{
     background-color: $colorDark;
     background-image:url('../../assets/img/pictures/footerF.png') ;
-
     background-position-x:center ; 
     background-size: cover;
     width: 100%;
@@ -11,8 +10,8 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    
 }
+
 .divBrandPFooter{
     display: none;
 }
@@ -31,6 +30,7 @@
 .divRedesFooter{
     display: none;
 }
+
 .footer span{
     color:white;
     font-weight: 300;
@@ -41,8 +41,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    padding: 15px 0 15px 0;
- 
+    padding: 15px 0 15px 0; 
 }
 
 .footer li{
@@ -107,12 +106,12 @@
     transition-duration: 0.4s;
 }
 
-
 @media(min-width: 768px){
     .footer{
         flex-direction: row;
         justify-content: space-around;
     }
+
     .divBrandPFooter p{
         line-height: 23px;
     }
@@ -130,6 +129,7 @@
     .divBrandPFooter img{
         width: 270px;
     }
+
     .divRedesFooter{
         display: flex;
         flex-direction: column;
@@ -137,10 +137,12 @@
         margin-top: 60px;
         justify-content: flex-end;
     }
+
     .divRedesFooter div{
         display: flex;
         gap: 15px;
     }
+    
     .ulFooter{
         padding: 15px 0 15px 76px;
     }

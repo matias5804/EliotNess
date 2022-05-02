@@ -35,8 +35,7 @@ const Delivery = () => {
           <img src={cerveza} className="cervezaCTA" alt='cerveza'/>
           <div className='divBtnCta'>
             <Link to={<Tienda/>}>Comprar</Link>
-            <Link to="">Variedades</Link>
-            
+            <Link to="">Variedades</Link>            
           </div>
         </div>
 
@@ -45,7 +44,6 @@ const Delivery = () => {
           <img className='lupuloCTA' src={imgLupuloCTADos} alt='lupulo'/>
         </div>
       </div>
-
 
       <div className='fondoDos variedades'>
         <Variedades/>
@@ -58,41 +56,41 @@ const Delivery = () => {
 
         <div className='divSection divSectionDelivery'>
           <div className='divSectionUno'>
-              
+            <div className='divImgSection'>
+                <img src={chopera} alt='chopera'/>
+            </div>
 
-              <div className='divImgSection'>
-                  <img src={chopera} alt='chopera'/>
+            <div className='divDivSection'>
+              <div className='divDivSectionInfo'>
+                  <h1>Alquiler de Choperas <br/>
+                      <span>Cerveza Artesanal</span>
+                  </h1>
+                  <p>Alquiler de Choperas de Cerveza Artesanal para tu evento o fiesta! Barriles de 50, 30, 20 y 10lts. Sistema con canillas de acero o Canilla Americana (manguera plástica). Disfruta de cualquiera de nuestros estilos en tu evento.</p>    
+                  <p>¿Que esperas para hacer tu reserva?</p>
+              </div>  
+
+              <div className='divDivSectionBtn'>
+                  <button> Más Info</button>
+                  <button>Contacto</button>
               </div>
 
-              <div className='divDivSection'>
-                  <div className='divDivSectionInfo'>
-                      <h1>Alquiler de Choperas <br/>
-                          <span>Cerveza Artesanal</span>
-                      </h1>
-                      <p>Alquiler de Choperas de Cerveza Artesanal para tu evento o fiesta! Barriles de 50, 30, 20 y 10lts. Sistema con canillas de acero o Canilla Americana (manguera plástica). Disfruta de cualquiera de nuestros estilos en tu evento.</p>    
-
-                      <p>¿Que esperas para hacer tu reserva?</p>
-                  </div>                
-                  <div className='divDivSectionBtn'>
-                      <button> Más Info</button>
-                      <button>Contacto</button>
-                  </div>
-                  <img className='imgSectionUno' src={barrilesCerveza} alt=''/>
-              </div>
+              <img className='imgSectionUno' src={barrilesCerveza} alt=''/>
+            </div>
           </div>
 
           <div className='divSectionDos'>
-              <div>
-                  <img src={barril} alt=''/>
-                  <h2>
-                      +10.000 <br/>
-                      <span>LTs/Mensuales</span>
-                  </h2>
-              </div>
-              <div className='divPedirCerveza'>
-                  <p> Desde 2017, nuestros cerveceros han desarrollado y mejorado <span>7 exquisitas receras de cerveza artesanal</span>, que vienen satifaciendo el paladar de nuestros clientes.</p>
-                  <button>Pedir Cerveza</button>
-              </div>
+            <div>
+              <img src={barril} alt=''/>
+              <h2>
+                +10.000 <br/>
+                <span>LTs/Mensuales</span>
+              </h2>
+            </div>
+
+            <div className='divPedirCerveza'>
+              <p> Desde 2017, nuestros cerveceros han desarrollado y mejorado <span>7 exquisitas receras de cerveza artesanal</span>, que vienen satifaciendo el paladar de nuestros clientes.</p>
+              <button>Pedir Cerveza</button>
+            </div>
           </div>
 
           <div className='divSectionTres sectionTresDelivery'>
@@ -104,13 +102,10 @@ const Delivery = () => {
               </div>
               <CarouselDos/>
             </div>
-
-
           </div>
         </div>
       </div>
     </div>
-
   )
 }
 

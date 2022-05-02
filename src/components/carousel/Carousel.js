@@ -11,17 +11,9 @@ import imgirishRed from  '../../assets/img/products/irishRed.png'
 import imgTntIpa from  '../../assets/img/products/tntIpa.png'
 import 'swiper/css/navigation';
 
-//import  { useRef, useState } from "react";
-// Import Swiper React components
-
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/scrollbar';
 import 'swiper/css/autoplay'
-
-
-
 import { Navigation } from "swiper";
 
 
@@ -39,15 +31,14 @@ const Carousel = () => {
           spaceBetween:10,
         // when window width is >= 768px
         768: {
-          
           slidesPerView: 2,
           spaceBetween:10,
         },
-        1024: {
-          
+
+        1024: {  
             slidesPerView: 3,
             spaceBetween:10,
-          },
+        },
       }}
    
       onSwiper={(swiper) => console.log(swiper)}

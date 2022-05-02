@@ -4,9 +4,7 @@
     background-image: url("../../assets/img/pictures/fondoTresopacoD.jpg");
     background-size: cover;
     background-attachment: fixed;
- 
 }
-
 
 .divSectionUno{
     width: 100%;
@@ -44,11 +42,11 @@
     color: $colorPri;
 }
 
-
 .divDivSectionInfo p{
     font-size: large;
     line-height: 1.5;
 }
+
 .divDivSectionBtn{
     display: flex;
     gap: 20px;
@@ -57,7 +55,6 @@
 }
  
 .divDivSectionBtn button{
-
     text-decoration: none;
     color: white;
     width: 120px;
@@ -71,11 +68,9 @@
     left: 18%;
     top: 27%;
     opacity: 0.2;
-
 }
 
 .divSectionDos{
-
     width: 100%;
     height:600px;
     text-align: center;
@@ -85,24 +80,28 @@
     align-items: center;
     gap: 50px;
 }
+
 .divPedirCerveza{
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
+
 .divSectionDos h2{
     color: white;
 }
+
 .divSectionDos p{
     color: white;
     font-size: large;
     padding: 0 20px;
     margin-bottom: 25px;
-
 }
+
 .divSectionDos img{
     width: 260px;
 }
+
 .divSectionDos button{
     border: 2px solid white;
     text-decoration: none;
@@ -113,6 +112,7 @@
     background-color: transparent;
     font-size: medium;
 }
+
 .divSectionDos span{
     color: $colorPri;
 }
@@ -126,7 +126,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .circulo{
@@ -146,7 +145,6 @@
     gap: 50px;
 }
 
-
 .divEtapaFabrica{
     display: flex;
     flex-direction: column;
@@ -154,7 +152,6 @@
     align-items: center;
     position: relative;
     padding: 0 20px;
-
 }
 
 .divImgMolienda{
@@ -170,6 +167,7 @@
     width: 200px;
     z-index: 2;
 }
+
 .trigoDown{
     position: absolute;
     bottom: 1%;
@@ -179,22 +177,23 @@
     .divSection{
         height: 3275px;
     }
+
     .divSectionUno{
         height: 490px;
         padding: 0;
     }
+
     .divSectionTres{
         height: 2200px;
     }
+
     .divEtapaFabrica p{
         width: 290px;
     }
-    .trigoDown {
 
+    .trigoDown {
         bottom: 2%;
     }
-
-    
 }
 
 @media(min-width: 600px){
@@ -202,32 +201,38 @@
         left: 33%;
         top: 9%;
     }
+
     .divSection {
         height: 3150px;
     }
+
     .divSectionUno{
         height: 405px;
     }
+
     .divSectionDos{
         height: 550px;
     }
+
     .divDivSection{
         width: 580px;
     }
 }
 
-@media(min-width: 768px){
-   
+@media(min-width: 768px){  
     .divDivSectionInfo h1{
         font-size: 45px;
     }
+
     .divDivSectionInfo p{
         font-size: x-large;
         padding: 0 50px;
     }
+
     .divSectionUno {
         height: 530px;
     }
+
     .divSectionDos {
         height: 350px;
         display: flex;
@@ -250,6 +255,7 @@
         width: 170px;
         font-size: larger;
     }
+
     .divSectionFabrica{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -258,20 +264,25 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
     }
+
     .divSectionTres {
         justify-content: center;
         gap: 40px;
         height: 1375px;
     }
+    
     .divEtapaFabrica{
         padding: 0 20px;
     }
+
     .divEtapaFabrica img{
         height: 55%;
     }
+
     .divDivSection {
         width: 750px;
     }
+
     .divSection {
         height: 2250px;
     }
@@ -295,37 +306,42 @@
         padding: 0;
         height: 575px;
     }
+
     .divImgSection img{
         display: none;
     }
+
     .divDivSection{
         width: 70%;
         padding: 15px 0;
     }
+
     .divDivSectionInfo{
         padding-top: 25px;
     }
+
     .divSectionDos h2{
         font-size: xx-large;
     } 
+
     .divPedirCerveza{
         gap:60px;
     }
+
     .divPedirCerveza p {
         font-size: x-large;
     }
+
     .divPedirCerveza button {
         width: 200px;
         font-size: x-large;
     }
+
     .divDivSectionBtn button {
         font-size: x-large;
         width: 165px;
     }
-
 }
 
 @media(min-width: 1200px){
-
-
 }    

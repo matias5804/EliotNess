@@ -6,20 +6,22 @@ import imgLupuloCTAUno from '../../assets/img/icon/lupuloCTAleft.png'
 import imgLupuloCTADos from '../../assets/img/icon/lupuloCTAright.png'
 
 const Contacto = () => {
-
   return (
     <div className='divGralContacto'>
       <div className='divTituloContacto'>
         <h1>Contacto</h1>
         <h3>- Estamos para atenderte -</h3>
       </div>
+
       <div className='divLupuloContacto'>
-          <img className='lupulosLatContacto' src={imgLupuloCTAUno} alt='lupulo'/>
-          <img className='lupulosLatContacto' src={imgLupuloCTADos} alt='lupulo'/>
-        </div>
+        <img className='lupulosLatContacto' src={imgLupuloCTAUno} alt='lupulo'/>
+        <img className='lupulosLatContacto' src={imgLupuloCTADos} alt='lupulo'/>
+      </div>
+
       <div>
         <div className='divInfoContacto'>
           <img src={lupuloContacto}  className="lupuloContacto" alt="lupulo"/>
+          
           <div>
             <h2>ELIOT NESS</h2>
             <p><br></br>Somos una microcerveceria ubicada en Ciudadela, Zona Oeste de Gran Buenos Aires.<br/>
@@ -27,6 +29,7 @@ const Contacto = () => {
             No dejes de consultarnos.<br/><br/>
             Delivery <strong>SIN CARGO</strong>  en: Ramos Mejía, Haedo, Ciudadela, Palomar, Caseros, Villa Luzuriaga.</p>
           </div>
+
           <img src={lupuloContacto}  className="lupuloContacto" alt="lupulo"/>
 
           <table>
@@ -66,37 +69,24 @@ const Contacto = () => {
         </div>
       </div>
 
-
       <div className="divContacto">
-
         <div className="divImgContacto">
-
           <img className='imgContacto'  src={fotoContacto} alt='foto contacto'/>
-
         </div>
 
         <div className="">
           <p className="textCompl">Complete el Formulario y nos comunicaremos a la brevedad.<br/> Muchas Gracias</p>
-
           <form className='form'>
-
             <input className="form-nombre" id="name" type="text" placeholder="Nombre" />
-
             <input className="form-email" id="emailAddress" type="email" placeholder="Direccion de Email" />                                                                   
             <textarea className="form-textarea" id="message" type="text" placeholder="Escriba su Consulta" ></textarea>
-
             <button className="btnForm" id="submitButton" type="submit">Enviar
             </button>
-
           </form>
         </div>
-
       </div>
       
-      <div className='divMap'>
-        
-      </div>
-
+      <div className='divMap'></div>
     </div>
   )
 }

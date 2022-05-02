@@ -5,7 +5,7 @@
     margin-right: auto;
 }
   
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: none;
@@ -25,9 +25,9 @@
     -webkit-align-items: center;
     align-items: center;
     padding: 30px;
-  }
+}
   
-  .divCardSliderDos{
+.divCardSliderDos{
     display: flex;
     background: none;
     width: 280px;
@@ -61,15 +61,10 @@
         width: 700px !important;
         margin: 0 auto;
     }
-
-
 }
-@media(min-width: 1024px){
 
-        
+@media(min-width: 1024px){        
     .mySwiperDos{
         width: 700px !important;
     }
-
-
 }

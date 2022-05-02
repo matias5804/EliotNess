@@ -2,32 +2,38 @@
     display: flex;
     flex-direction: column;
 }
+
 .sectionTresDelivery{
     height: 700px;
 }
+
 .divSectionDelivery{
     height: 1825px;
 }
+
 @media (min-width: 425px){
     .divSectionDelivery{
         height: 1785px;
     }
 }
+
 @media (min-width: 600px){
     .divSectionDelivery{
         height: 1650px;
     }
 }
+
 @media (min-width: 768px){
     .divImgDeliveryPromos{
         display: flex;
         flex-direction: row;
         max-width: 100%;
     }
-    .divImgDeliveryPromos img{
-        
+
+    .divImgDeliveryPromos img{    
         width: 33.33%;
     }
+    
     .divSectionDelivery{
         height: 1575px;
     }

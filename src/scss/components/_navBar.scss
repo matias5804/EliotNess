@@ -100,6 +100,7 @@
     cursor: pointer;
     font-size: 18px;
 }
+
 .imgBrandAbierto{
     position: absolute;
     right: 80px;
@@ -120,13 +121,11 @@
     cursor: pointer;
 }
 
-
-
-
 @media(min-width: 1024px){
     .divBrandBurguer{
         position: relative;
     }
+
     .divVacio{
         display: inline;
         display: flex;
@@ -143,6 +142,7 @@
         left:35px;
         top: 35px;
     }
+
     .vacioUno{
         position: absolute;
         right: 140px;
@@ -153,13 +153,16 @@
         background-image:url('../../assets/img/icon/faceNaranja.png');
         background-size: cover;
     }
+
     .iconUno:hover{
         background-image:url('../../assets/img/icon/faceBlanco.png');
     }
+
     .iconDos{
         background-image:url('../../assets/img/icon/instaNaranja.png');
         background-size: cover;
     }
+
     .iconDos:hover{
         background-image:url('../../assets/img/icon/instaBlanco.png');
     }
@@ -168,6 +171,7 @@
         background-image:url('../../assets/img/icon/usuarioNaranja.png');
         background-size: cover;
     }
+
     .iconTres:hover{
         background-image:url('../../assets/img/icon/usuarioBlanco.png');
     }
@@ -176,6 +180,7 @@
         background-image:url('../../assets/img/icon/carritoNaranja.png');
         background-size: cover;
     }
+    
     .iconCuatro:hover{
         background-image:url('../../assets/img/icon/carritoBlanco.png');
     }

@@ -1,9 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-
 const Item = (item) => {
-
   const {name, image } = item
   console.log(image);
 
@@ -25,7 +23,6 @@ const Item = (item) => {
         </Link>
       </div>
     </div>
-
   )
 }
 

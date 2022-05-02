@@ -41,8 +41,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <ul className='ulFooter'>
-            
+          <ul className='ulFooter'>            
             <li>Mi Cuenta</li>
             <li>Carrito</li>
             <li>Ckeckout</li>
@@ -56,17 +55,16 @@ const Footer = () => {
             </div>
             <p>Distribuidores de Cerveza Artesanal</p>
           </div>
-
         </div>
-        
       </div>
+
       <div className='divDerechos'>
         <p>Construido por Matias Alonso Pisani - Todos los derechos reservados 2022</p>  
       </div>
-      
-              {/*/boton whatsApp modo fixd , te envia directoi al chat con una pestaña nueva/*/}
-              <a className='fixed-whatsapp' href="https://api.whatsapp.com/send?phone=541133554248'">
-                </a>
+
+      {/*/boton whatsApp modo fixd , te envia directoi al chat con una pestaña nueva/*/}
+      <a className='fixed-whatsapp' href="https://api.whatsapp.com/send?phone=541133554248'">
+      </a>
     </>
   )
 }
